@@ -1,70 +1,63 @@
-# 👋 Hey, I'm Krishnanand Anil  
+# Hey, I'm Krishnanand Anil
 
-🏗️ **Data Engineer | Warehouse Whisperer | Pipeline Therapist**
+**Data Engineer | Data Warehouse Specialist | Builder of Reliable Data Systems**
 
-I build data warehouses that *don’t* collapse under their own joins, pipelines that *actually* run on schedule, and platforms that make analysts smile (yes, it’s possible).  
-
-My specialty? Turning chaos into clean, queryable gold — and making sure your data warehouse is the one place everyone actually trusts.
-
----
-
-### 🧠 What I Actually Do
-- 🏗️ Design **data warehouses** that scale (and don’t need a “fix_v2_final_final” table)  
-- ⚙️ Build **ETL/ELT pipelines** using DBT, PySpark, and AWS Glue  
-- 🧩 Create **dimensional models** that make dashboards fly  
-- ☁️ Tame **AWS monsters** like Redshift, Lambda, and Kinesis  
-- 📘 Automate **lineage, docs, and data quality** because nobody should write that manually
+I design and build modern data warehouses and analytics platforms that actually make sense — the kind that analysts enjoy querying and engineers enjoy maintaining.  
+Most of my work lives somewhere between data modeling, pipeline automation, and performance tuning.
 
 ---
 
-### 💡 My Stack of Choice
+## What I Do
+- Architect and scale **data warehouses** for analytics and reporting  
+- Build **ETL/ELT pipelines** using DBT, PySpark, and AWS Glue  
+- Design **dimensional models** and **data marts** that power self-serve dashboards  
+- Automate **metadata, lineage, and documentation** (because we all forget to update README files)  
+- Tune **Redshift clusters** until they behave like they should’ve from day one  
+
+---
+
+## Tech Stack
 | Area | Tools & Tech |
 |------|---------------|
-| **Data Warehouse** | Redshift, Snowflake, Postgres |
-| **Transformations** | DBT, PySpark, Glue |
-| **Modeling** | Kimball, Data Vault, Star Schema |
-| **Metadata & Lineage** | OpenMetadata, Amundsen |
-| **Infra** | AWS, Docker, Terraform, Kubernetes |
-| **Languages** | Python, SQL (my first language), JavaScript (for front-end fun) |
+| Data Warehouse | Redshift, Snowflake, Postgres |
+| Transformations | DBT, PySpark, Glue |
+| Data Modeling | Kimball, Data Vault, Star Schema |
+| Metadata & Governance | OpenMetadata, Amundsen |
+| Infrastructure | AWS, Docker, Terraform, Kubernetes |
+| Languages | Python, SQL, a bit of TypeScript |
 
 ---
 
-### 🚀 Recent Shenanigans
-- 🧮 Built a **central data warehouse** combining Finance, Ops, and Product data → Cut reporting time by **80%**  
-- ⚡ Architected a **real-time event pipeline** (50M+ events/day) → Redshift didn’t cry once  
-- 🧠 Automated **DBT docs + OpenMetadata** → So the team finally stopped asking “where does this column come from?”
+## Recent Work
+- **Central Data Warehouse:** Unified Finance, Ops, and Product data into one source of truth; reduced report latency by 80%.  
+- **Event Pipeline:** Designed a Kinesis → Lambda → Redshift pipeline handling 50M+ daily events.  
+- **Metadata Automation:** Integrated DBT with OpenMetadata for end-to-end lineage and documentation.  
 
 ---
 
-### 🧰 Currently Experimenting With
-- **Metadata-driven data warehouse automation** (yes, it’s as nerdy as it sounds)  
-- **LLMs for data documentation** (because ChatGPT explains columns better than humans sometimes)  
-- **Svelte + FastAPI dashboards** (because pretty > plain text outputs)
+## What I’m Exploring
+- Metadata-driven warehouse automation  
+- Using LLMs to generate data documentation and quality tests  
+- Lightweight internal dashboards using Svelte and FastAPI  
 
 ---
 
-### 🌱 Things I’m Trying to Master
-- Making Redshift go *brrr* without cluster meltdowns  
-- Saying “data mesh” without starting a debate  
-- Actually finishing my side projects before starting new ones 😅
+## A Few Opinions
+- “SELECT *” is fine — as long as you know *why* you’re doing it.  
+- A well-modeled schema beats any fancy dashboard.  
+- The best pipelines are the ones you forget exist because they never break.
 
 ---
 
-### 💬 Let’s Talk About
-Data architecture, analytics platforms, or why *SELECT \** is a life choice, not a query.
-
-<p align="left">
-  <a href="https://krishnanandanil.com"><img src="https://img.shields.io/badge/Portfolio-krishnanandanil.com-0a66c2?style=flat-square&logo=google-chrome&logoColor=white" /></a>
-  <a href="https://linkedin.com/in/krishnanandanil"><img src="https://img.shields.io/badge/LinkedIn-Krishnanand%20Anil-blue?style=flat-square&logo=linkedin" /></a>
-  <a href="mailto:krishnanandanil@gmail.com"><img src="https://img.shields.io/badge/Email-krishnanandanil%40gmail.com-red?style=flat-square&logo=gmail&logoColor=white" /></a>
-</p>
+## Connect
+- Portfolio: [krishnanandanil.com](https://krishnanandanil.com)  
+- LinkedIn: [linkedin.com/in/krishnanandanil](https://linkedin.com/in/krishnanandanil)  
+- Email: krishnanandanil@gmail.com  
 
 ---
 
-### ✨ Motto
-> _“Good data models are like jokes — if you have to explain them, they’re not working.”_
+> “Good data models are like good jokes — if you have to explain them, they’re not working.”
 
 ---
 
-⭐️ Poke around my repos — you’ll find a mix of **data platform blueprints**, **SEO toys**, and **scripts that made my life easier (and maybe yours too)**.  
-If something makes you chuckle *and* runs without errors, that’s a win in my book ☕
+If you see something interesting here, clone it, break it, and make it better. That’s how most of my projects started anyway.
