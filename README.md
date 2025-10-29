@@ -51,8 +51,8 @@ Most of my work lives somewhere between data modeling, pipeline automation, and 
 
 ## Connect
 - Portfolio: [krishnanandanil.com](https://krishnanandanil.com)  
-- LinkedIn: [linkedin.com/in/krishnanandanil](https://linkedin.com/in/krishnanandanil)  
-- Email: krishnanandanil@gmail.com  
+- LinkedIn: [linkedin.com/in/krishnanand-anil](https://linkedin.com/in/krishnanandanil)  
+- Email: krishnanandpanil@gmail.com  
 
 ---
 
