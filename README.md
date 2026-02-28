@@ -18,7 +18,6 @@ I design and build modern **data warehouses**, **lakehouse platforms**, and **re
 ### 1. Modern Enterprise Lakehouse & Data Warehouse (AWS)
 *Medallion architecture utilizing Apache Iceberg on S3, orchestrated via Airflow and dbt.*
 
-```mermaid
 graph TD
     subgraph "Data Sources"
         A[PostgreSQL / MySQL]
@@ -61,7 +60,6 @@ graph TD
     classDef storage fill:#3F8624,stroke:#232F3E,stroke-width:2px,color:white;
     class D,E,F storage;
     class H,J,K aws;
-```
 
 ### 2. Real-Time CDC & Event Streaming (50M+ Events/Day)
 *Event-driven architecture decoupling source databases from downstream analytics with sub-second latency.*
