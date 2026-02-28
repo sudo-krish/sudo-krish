@@ -18,28 +18,29 @@ I design and build modern **data warehouses**, **lakehouse platforms**, and **re
 ### 1. Modern Enterprise Lakehouse & Data Warehouse (AWS)
 *Medallion architecture utilizing Apache Iceberg on S3, orchestrated via Airflow and dbt.*
 
-graph TD
-    subgraph "Data Sources"
+```mermaid
+flowchart TD
+    subgraph Sources [Data Sources]
         A[PostgreSQL / MySQL]
         B[SaaS / REST APIs]
         C[Flat Files / Logs]
     end
     
-    subgraph "Data Lakehouse (AWS S3 + Apache Iceberg)"
-        D[(Bronze Layer<br/>Raw Data)]
-        E[(Silver Layer<br/>Cleaned & Filtered)]
-        F[(Gold Layer<br/>Business Aggregates)]
+    subgraph Lakehouse [Data Lakehouse: AWS S3 + Apache Iceberg]
+        D[(Bronze Layer: Raw Data)]
+        E[(Silver Layer: Cleaned & Filtered)]
+        F[(Gold Layer: Business Aggregates)]
     end
     
-    subgraph "Processing & Orchestration"
+    subgraph Processing [Processing & Orchestration]
         G[Apache Airflow]
         H[AWS Glue / PySpark]
         I[dbt]
     end
     
-    subgraph "Serving & Analytics"
+    subgraph Serving [Serving & Analytics]
         J[Amazon Athena]
-        K[(Amazon Redshift<br/>Enterprise DWH)]
+        K[(Amazon Redshift DWH)]
         L[BI Dashboards]
     end
     
@@ -56,10 +57,11 @@ graph TD
     J --> L
     K --> L
 
-    classDef aws fill:#FF9900,stroke:#232F3E,stroke-width:2px,color:black;
-    classDef storage fill:#3F8624,stroke:#232F3E,stroke-width:2px,color:white;
-    class D,E,F storage;
-    class H,J,K aws;
+    style Sources fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style Lakehouse fill:#e6f3ff,stroke:#0066cc,stroke-width:2px
+    style Processing fill:#fff2e6,stroke:#ff9900,stroke-width:2px
+    style Serving fill:#e6ffe6,stroke:#33cc33,stroke-width:2px
+```
 
 ### 2. Real-Time CDC & Event Streaming (50M+ Events/Day)
 *Event-driven architecture decoupling source databases from downstream analytics with sub-second latency.*
